@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: azure;
+    line-height: 1.5;
+}
+.my {
+    text-align: center;
+    margin: 50px 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.all .ngang a:hover {
+    color: lightgreen;
+}
+.all .ngang {
+    text-align: center;
+    margin: 30px;
+}
+.all .ngang li{
+    display: inline;
+    margin: 10px;
+}
+.hoc .o {
+    text-align: center;
+    padding: 10px;
+}
+.hoc .o li{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid palegreen;
+    border-radius: 2px;
+    margin: 0 30px 20px 0;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    background-color: palegreen;
+}
+.hoc .o li:hover {
+    opacity: 0.8;
+}
+.hoc {
+    text-align: center;
+}
+
+
