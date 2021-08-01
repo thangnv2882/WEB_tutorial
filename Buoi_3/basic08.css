@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: 15px;
+}
+body {
+    background-color: azure;
+    margin: 0 100px 0 100px;
+}
+ul .hang {
+    display: inline-block;
+}
+ul .hang ul li {
+    list-style: none;
+    margin: 0 100px 5px 0;
+}
+.truoc {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 70px 0 30px;
+}
+.sau {
+    margin: 0 0 30px;
+}
