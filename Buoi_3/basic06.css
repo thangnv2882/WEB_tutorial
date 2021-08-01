@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+ul{
+    text-align: center;
+}
+li {
+    display: inline-block;
+    width: 370px;
+}
+.icon {
+    height: 30px;
+    margin: 70px 0 15px;
+}
+p {
+    font-size: 13px;
+    margin: 0 20px;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+}
+
+
