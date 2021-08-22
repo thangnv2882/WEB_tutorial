@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px; 
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  padding: 5px 0;
+}
+.taskbar ul li {
+  display: inline-block;
+  margin: 20px;
+ 
+}
+ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(98, 211, 226);
+  position: absolute;
+}
+ul li a:hover::after{
+  width: 100%;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  
+}
+ul li a:hover {
+  text-shadow: 0 0 5px rgb(98, 211, 226, 0.5);
+}
+

@@ -26,6 +26,8 @@ body {
 #nav .subnav li:hover {
   color: black;
   background-color: rgb(230, 231, 233);
+  transition: 0.4s all;
+  border-radius: 5px;
 }
 #nav li:hover .subnav {
   position: absolute;
@@ -50,4 +52,3 @@ body {
   padding: 0 16px;
   line-height: 40px;
 }
-
