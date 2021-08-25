@@ -1,0 +1,153 @@
+body {
+  font-family: monospace;
+}
+header {
+  padding: 3rem;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 3%;
+
+}
+.item1, .item2, .item3, .item4, 
+.item5, .item6, .item7, .item8, 
+.item9, .item10, .item11, .item12, 
+.item13, .item14, .item15, .item16 {
+  position: relative;
+  margin: 30px 0;
+}
+.item1 {
+  background: #505358;
+  cursor: pointer;
+}
+.pic1, .pic2, .pic3, .pic4
+.pic5, .pic6, .pic7, .pic8
+.pic9, .pic10, .pic11, .pic12
+.pic13, .pic14, .pic15, .pic16 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px rgb(94, 91, 91);
+  margin: 0;
+  cursor: pointer;
+}
+.pic1 img, .pic2 img, .pic3 img, .pic4 img
+.pic5 img, .pic6 img, .pic7 img, .pic8 img
+.pic9 img, .pic10 img, .pic11 img, .pic12 img
+.pic13 img, .pic14 img, .pic15 img, .pic16 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  opacity: 0.9;
+}
+.pic1 .content {
+  padding: 32px;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pic1 p {
+  font-size: 12px;
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  transform: translateX(-400px);
+  transition: all 0.5s;
+}
+.pic1:hover img{
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.pic1:hover p {
+  transform: translateX(0);
+}
+/* CSS Pic 2 */
+.pic2 .content h2{
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  color: white;
+  font-size: 22px;
+  transform: translateY(80px);
+  transition: all 0.5s;
+
+}
+.pic2 p {
+  position: absolute;
+  font-size: 16px;
+  background-color: rgb(226, 54, 54);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  bottom: -16px;
+  transform: translateY(80px);
+  transition: all 0.5s;
+}
+.pic2:hover h2, .pic2:hover p {
+  transform: translateY(0);
+}
+.pic2:hover img {
+  transform: translateY(-80px);
+}
+
+.pic3 h2 {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  transition: all 0.5s;
+
+}
+.pic3 p {
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  left: 30px;
+  right: 30px;
+  padding: 15px 25px;
+  border: 2px solid white;
+  transition: all 0.25s;
+  display: none;
+}
+.pic3:hover img {
+  transform: scale(1.6);
+  opacity: 0.7;
+}
+.pic3:hover h2 {
+  font-weight: 100;
+  font-size: 30px;
+}
+.pic3:hover p {
+  display: block;
+  transition: all 0.25s;
+}
+/* CSS pic 4 */
+.pic4 h2 {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  color: #000;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+}

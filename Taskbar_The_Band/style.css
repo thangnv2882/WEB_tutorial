@@ -33,6 +33,7 @@ body {
   position: absolute;
   flex-direction: column;
   display: flex;
+  border-radius: 5px;
 }
 #nav li:hover a {
   display: inline-block;
@@ -46,7 +47,6 @@ body {
   list-style: none;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
 }
-
 #nav .subnav a {
   color: black;
   padding: 0 16px;

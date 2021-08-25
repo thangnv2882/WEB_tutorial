@@ -1,0 +1,150 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+/* CSS Navigation */
+.nav 
+{
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav_cen, .nav .nav_right
+{
+  font-size: 30px;
+  margin: 24px 5%;
+  font-weight: bold;
+}
+.nav .nav_left
+{
+  font-size: 25px;
+  border: 0;
+  padding: 16px;
+  margin: 0 5%;
+}
+.nav .nav_left:hover
+{
+  color: #fff;
+  background-color: rgb(190, 151, 151);
+  cursor: pointer;
+}
+
+/* CSS Food */
+.food
+{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.food .content
+{
+  width: 23%;
+  margin: 40px 0;
+
+}
+.food .content img
+{
+  width: 100%;
+  border-radius: 5px;
+}
+.food .content h3
+{
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.food .content p
+{
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  margin: 15px;
+}
+
+/* CSS Bar */
+.bar .one
+{
+  background-color: black;
+  color: white;
+}
+.bar ul 
+{
+  display: flex;
+  justify-content: center;
+}
+.bar ul li
+{
+  list-style: none;
+}
+.bar ul li a
+{
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: black;
+  transition: 0.25s;
+
+}
+.bar ul li a:hover
+{
+  background-color: black;
+  color: white;
+  transition: 0.25s;
+}
+
+#line
+{
+  margin: 50px;
+  border: 1px solid rgb(136, 128, 128);
+}
+/* CSS About */
+.about
+{
+  width: 85%;
+  /* justify-content: space-between; */
+  margin: 0 auto;
+}
+.about h3
+{
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 15px 0;
+  position: relative;
+}
+.about img
+{
+  position: relative;
+  left: 50%;
+  width: 70%;
+  transform: translateX(-50%);
+}
+.about h4
+{
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about h5
+{
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.about p
+{
+  text-align: center;
+  margin: 15px 0;
+}
+
+

@@ -16,7 +16,6 @@ ul li a {
 .taskbar ul li {
   display: inline-block;
   margin: 20px;
- 
 }
 ul li a::after {
   content: "";
